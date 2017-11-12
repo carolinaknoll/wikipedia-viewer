@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 
-export default class SearchRestults extends Component {
+export default class SearchResult extends Component {
   constructor(props) {
     super(props);
 
@@ -9,7 +9,10 @@ export default class SearchRestults extends Component {
 
 	render() {
     return (
-      <input></input>
+      <form>
+        <p>Ssearch result</p>
+        <input></input>
+      </form>
     );
 	}
 };
