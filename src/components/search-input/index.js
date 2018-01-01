@@ -9,7 +9,7 @@ export default class SearchInput extends Component {
 
 	render() {
     return (
-      <input></input>
+      <input type="text" className="search-box" placeholder="Search Wikipedia"></input>
     );
 	}
 };
