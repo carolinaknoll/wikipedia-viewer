@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 import './index.css';
@@ -13,9 +13,9 @@ ReactDOM.render(
   <HashRouter>
     <div>
       <Header />
-        <Route exact path='/' component={ WikipediaViewer } />
+        <Route exact path='/' component={WikipediaViewer} />
         <Switch>
-          <Route path='/wikipedia-viewer' components={ WikipediaViewer } />
+          <Route path='/wikipedia-viewer' components={WikipediaViewer} />
         </Switch>
       <Footer />
     </div>

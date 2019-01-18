@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import SearchInput from '../components/search-input';
-import SearchResult from '../components/search-result';
+import React, {Component} from 'react';
+import SearchComponent from '../components/search-component/search-component';
 
 export default class WikipediaViewer extends Component {
   render() {
@@ -10,8 +9,16 @@ export default class WikipediaViewer extends Component {
           <h1 className="App-title">Wikipedia Viewer</h1>
           <h2>Explore the world's knowledge...</h2>
         </header>
-        <SearchInput />
-        <SearchResult />
+
+        <h2>Search from Wikipedia</h2>
+
+        <h2>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">
+            I'm feeling lucky!
+          </a>
+        </h2>
+
+        <SearchComponent />
       </div>
     );
   }
