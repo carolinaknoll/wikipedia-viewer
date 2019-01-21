@@ -3,11 +3,10 @@ import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Header</h1>
-        </header>
-      </div>
+      <header className="header">
+        <h1>Wikipedia Viewer</h1>
+        <h2>Explore the world's knowledge...</h2>
+      </header>
     );
   }
 }
