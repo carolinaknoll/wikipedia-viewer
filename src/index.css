@@ -1,5 +1,5 @@
 @import url("../src/assets/styles/wikipedia-viewer.css");
-@import url("../src/components/common/header/header.css");
-@import url("../src/components/common/footer/footer.css");
-@import url("../src/components/search-component/search-component.css");
-@import url("../src/components/search-results/search-results.css");
+@import url("../src/assets/styles/header.css");
+@import url("../src/assets/styles/footer.css");
+@import url("../src/assets/styles/search-component.css");
+@import url("../src/assets/styles/search-results.css");

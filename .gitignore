@@ -15,6 +15,3 @@
 .env.production.local
 
 npm-debug.log*
-
-# compiled css files
-src/**/*.css

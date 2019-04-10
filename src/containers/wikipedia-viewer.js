@@ -7,7 +7,7 @@ export default class WikipediaViewer extends Component {
   render() {
     return (
       <div>
-        <div className="content-container">
+        <div className="wikipedia-viewer">
           <Header />
 
           <h2>Search from Wikipedia</h2>
