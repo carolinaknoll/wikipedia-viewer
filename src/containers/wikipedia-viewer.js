@@ -11,11 +11,6 @@ export default class WikipediaViewer extends Component {
           <Header />
 
           <h2>Search from Wikipedia</h2>
-          <h2>
-            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">
-              I'm feeling lucky!
-            </a>
-          </h2>
 
           <SearchComponent />
         </div>

@@ -20,7 +20,9 @@ export default class SearchComponent extends Component {
   }
 
   handleSubmit = (e) => {
-    e.preventDefault();
+    if (e.target) {
+      e.preventDefault();
+    }
 
     axios.get(
       `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${this.state.searchInput}&origin=*&format=json`
@@ -71,7 +73,19 @@ export default class SearchComponent extends Component {
             value={this.state.searchInput}
             required
           />
+
+          <button
+            className="search-button"
+            onClick={() => this.handleSubmit(this.state.searchInput)}>
+              Search
+          </button>
         </form>
+
+        <p class="bold">
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">
+            I'm feeling lucky!
+          </a>
+        </p>
 
         {this.renderSearchResults()}
         {this.renderErrorMessage()}
