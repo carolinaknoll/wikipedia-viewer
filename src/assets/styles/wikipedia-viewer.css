@@ -1,10 +1,15 @@
 body {
   background: url('../images/wikipedia-viewer-bg.jpg') 50% 50% no-repeat fixed;
   color: #fff;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Maitree', 'Helvetica', sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
 .wikipedia-viewer a {
   color: #800000;
+}
+
+.bold {
+  font-weight: bold;
 }

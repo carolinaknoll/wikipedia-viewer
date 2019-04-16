@@ -1,4 +1,15 @@
-input {
-  border: 4px solid #800000;
+.search-box,
+.search-button {
+  background: #800000;
+  color: #FFF;
+  border: 2px solid #800000;
   padding: 10px;
+}
+
+.search-box::placeholder {
+  color: #FFF;
+}
+
+.search-button {
+  margin-left: 4px;
 }

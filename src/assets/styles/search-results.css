@@ -1,0 +1,11 @@
+.result-box {
+  max-width: 600px;
+  margin: auto;
+  background: #800000;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.result-box a {
+  color: #ff6666;
+}

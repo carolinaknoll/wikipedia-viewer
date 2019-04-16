@@ -4,9 +4,10 @@ import Parser from 'html-react-parser';
 export default class SearchResults extends Component {
   renderSearchResults = () => {
     let {results} = this.props;
+
     const SearchResults = results.map((article, index) => {
       return (
-        <div className="result" key={index}>
+        <div className="result-box" key={index}>
           <h2>{article.title}</h2>
           <p>
             {Parser(article.snippet)} 
