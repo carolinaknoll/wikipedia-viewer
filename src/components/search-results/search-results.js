@@ -8,8 +8,12 @@ export default class SearchResults extends Component {
     const SearchResults = results.map((article, index) => {
       return (
         <div className="result-box" key={index}>
-          <h2>{article.title}</h2>
-          <p>
+
+          <a href={`https://en.wikipedia.org/wiki/${article.title}`} target="_blank" rel="noopener noreferrer">
+            <h2 className="title">{article.title}</h2>
+          </a>
+
+          <p className="snippet">
             {Parser(article.snippet)} 
             <a href={`https://en.wikipedia.org/wiki/${article.title}`} target="_blank" rel="noopener noreferrer">
               (read more...)

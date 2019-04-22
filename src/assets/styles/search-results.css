@@ -1,11 +1,25 @@
-.result-box {
+.search-results {
+  margin-top: 20px;
+}
+
+.search-results .result-box {
   max-width: 600px;
   margin: auto;
-  background: #800000;
-  padding: 5px;
+  background: #4d0000;
+  padding: 15px;
   margin-bottom: 10px;
 }
 
-.result-box a {
+.search-results .result-box a {
   color: #ff6666;
+}
+
+.search-results .result-box .title,
+.search-results .result-box .searchmatch {
+  color: #ff6666;
+  font-weight: bold;
+}
+
+.search-results .result-box .snippet {
+  line-height: 22px;
 }

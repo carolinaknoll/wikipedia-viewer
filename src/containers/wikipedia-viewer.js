@@ -9,9 +9,6 @@ export default class WikipediaViewer extends Component {
       <div>
         <div className="wikipedia-viewer">
           <Header />
-
-          <h2>Search from Wikipedia</h2>
-
           <SearchComponent />
         </div>
         <Footer />

@@ -6,6 +6,14 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
 .wikipedia-viewer a {
   color: #800000;
 }

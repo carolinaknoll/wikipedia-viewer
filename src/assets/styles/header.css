@@ -1,9 +1,11 @@
 .header {
   color: #FFF;
   text-align: center;
+  margin: 50px 0;
 }
 
 .header .title,
 .header .subtitle {
   text-shadow: 1px 2px 3px #000;
+  margin: 10px;
 }

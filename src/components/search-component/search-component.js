@@ -64,6 +64,8 @@ export default class SearchComponent extends Component {
 	render() {
     return (
       <div className="search-component">
+        <h2 className="title">Search from Wikipedia</h2>
+
         <form role="search" onSubmit={(e) => this.handleSubmit(e)}>
           <input
             type="text"
@@ -81,7 +83,7 @@ export default class SearchComponent extends Component {
           </button>
         </form>
 
-        <p class="bold">
+        <p className="lucky-url bold">
           <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">
             I'm feeling lucky!
           </a>

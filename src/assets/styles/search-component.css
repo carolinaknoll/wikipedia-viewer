@@ -1,8 +1,20 @@
+.search-component {
+  margin-top: 10px;
+}
+
+.search-component .title {
+  margin-bottom: 10px;
+}
+
+.search-component .lucky-url {
+  margin-top: 10px;
+}
+
 .search-box,
 .search-button {
-  background: #800000;
+  background: #4d0000;
   color: #FFF;
-  border: 2px solid #800000;
+  border: 2px solid #4d0000;
   padding: 10px;
 }
 

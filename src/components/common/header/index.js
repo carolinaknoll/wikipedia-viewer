@@ -4,8 +4,8 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <h1>Wikipedia Viewer</h1>
-        <h2>Explore the world's knowledge...</h2>
+        <h1 className="title">Wikipedia Viewer</h1>
+        <h2 className="subtitle">Explore the world's knowledge...</h2>
       </header>
     );
   }
