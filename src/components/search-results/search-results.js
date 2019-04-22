@@ -28,9 +28,12 @@ export default class SearchResults extends Component {
 
 	render() {
     return (
-      <div className="search-results">
-        <p>Search Results</p>
-        {this.renderSearchResults()}
+      <div className="search-results-container">
+        <h2 className="search-results-title">Search Results</h2>
+
+        <div className="result-box-container">
+          {this.renderSearchResults()}
+        </div>
       </div>
     );
 	}
