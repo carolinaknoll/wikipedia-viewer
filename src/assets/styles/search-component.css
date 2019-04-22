@@ -6,16 +6,19 @@
   margin-bottom: 10px;
 }
 
-.search-component .lucky-url {
-  margin-top: 10px;
-}
-
 .search-box,
-.search-button {
+.search-button,
+.lucky-box {
   background: #4d0000;
   color: #FFF;
   border: 2px solid #4d0000;
   padding: 10px;
+}
+
+.lucky-box {
+  max-width: 238px;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .search-box::placeholder {

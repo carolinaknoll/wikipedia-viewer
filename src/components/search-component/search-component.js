@@ -83,11 +83,13 @@ export default class SearchComponent extends Component {
           </button>
         </form>
 
-        <p className="lucky-url bold">
-          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">
-            I'm feeling lucky!
-          </a>
-        </p>
+        <div className="lucky-box">
+          <p className="lucky-url bold">
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" rel="noopener noreferrer">
+              I'm feeling lucky!
+            </a>
+          </p>
+        </div>
 
         {this.renderSearchResults()}
         {this.renderErrorMessage()}
