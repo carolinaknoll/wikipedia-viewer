@@ -27,9 +27,11 @@ export default class SearchResults extends Component {
   }
 
 	render() {
+    const {searchInput} = this.props;
+
     return (
       <div className="search-results-container">
-        <h2 className="search-results-title">Search Results</h2>
+        <h3 className="search-results-title">Search Results for your term: '{searchInput}'.</h3>
 
         <div className="result-box-container">
           {this.renderSearchResults()}

@@ -28,3 +28,12 @@
 .search-button {
   margin-left: 4px;
 }
+
+.search-results-error {
+  margin-top: 20px;
+}
+
+.search-results-error .fa {
+  margin-right: 5px;
+  color: #ff6666;
+}

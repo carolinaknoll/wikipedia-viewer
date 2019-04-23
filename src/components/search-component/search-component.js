@@ -35,7 +35,7 @@ export default class SearchComponent extends Component {
 
       if (!this.state.SearchResults.length) {
         this.setState({
-          errorMessage: `There were no results for your search term: ${this.state.searchInput}.`
+          errorMessage: `There were no results for your search term: '${this.state.searchInput}'.`
         });
       }
     }).catch((error) => {
@@ -49,6 +49,7 @@ export default class SearchComponent extends Component {
     if (this.state.SearchResults.length) {
       return (
         <SearchResults
+          searchInput={this.state.searchInput}
           results={this.state.SearchResults}
         />
       )
@@ -57,7 +58,12 @@ export default class SearchComponent extends Component {
 
   renderErrorMessage = () => {
     if (this.state.errorMessage.length) {
-      return <p>{this.state.errorMessage}</p>
+      return (
+        <h3 className="search-results-error">
+          <i className="fa fa-exclamation-circle"></i>
+          {this.state.errorMessage}
+        </h3>
+      );
     }
   }
 
