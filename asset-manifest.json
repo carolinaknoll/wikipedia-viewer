@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wikipedia-viewer/static/css/main.d2d79386.chunk.css",
+    "main.js": "/wikipedia-viewer/static/js/main.bb3f7ecf.chunk.js",
+    "main.js.map": "/wikipedia-viewer/static/js/main.bb3f7ecf.chunk.js.map",
+    "runtime~main.js": "/wikipedia-viewer/static/js/runtime~main.d5617d45.js",
+    "runtime~main.js.map": "/wikipedia-viewer/static/js/runtime~main.d5617d45.js.map",
+    "static/js/2.acfedb50.chunk.js": "/wikipedia-viewer/static/js/2.acfedb50.chunk.js",
+    "static/js/2.acfedb50.chunk.js.map": "/wikipedia-viewer/static/js/2.acfedb50.chunk.js.map",
+    "index.html": "/wikipedia-viewer/index.html",
+    "precache-manifest.df75f76e3b2178c8cb2ad0ccdc211603.js": "/wikipedia-viewer/precache-manifest.df75f76e3b2178c8cb2ad0ccdc211603.js",
+    "service-worker.js": "/wikipedia-viewer/service-worker.js",
+    "static/css/main.d2d79386.chunk.css.map": "/wikipedia-viewer/static/css/main.d2d79386.chunk.css.map",
+    "static/media/index.css": "/wikipedia-viewer/static/media/wikipedia-viewer-bg.2ad1cda5.jpg"
+  }
+}
