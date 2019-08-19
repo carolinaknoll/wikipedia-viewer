@@ -1,9 +1,16 @@
+html {
+  height: 100%;
+}
+
 body {
   background: url('../images/wikipedia-viewer-bg.jpg') 50% 50% no-repeat fixed;
   color: #fff;
   font-family: 'Maitree', 'Helvetica', sans-serif;
   font-weight: 300;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 h1 {
@@ -16,6 +23,10 @@ h2 {
 
 h3 {
   font-size: 20px;
+}
+
+.wikipedia-viewer {
+  flex: 1 0 auto;
 }
 
 .wikipedia-viewer a {
